@@ -97,12 +97,11 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background: url('../img/brick-background.jpeg');
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -116,17 +115,26 @@ body {
 
 .div-1, .div-2, .div-3 {
     display: flex;
-    color: #fff;
-    width: 30%;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+    overflow: auto;
+    text-align: center;
+    color: #ffffff;
+    width: 30%;
+    background-color: #224173;
+    height: 300px;
+    padding: .5em;
 }
 
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2rem;
+}
 
+p {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1rem;
+}
 
 
 /* ==========================================================================
