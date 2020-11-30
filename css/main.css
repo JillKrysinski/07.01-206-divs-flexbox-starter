@@ -107,33 +107,65 @@ body {
   height: 100%;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  font-weight: 700;
-}
-
-.div-1, .div-2, .div-3 {
+header,
+footer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    overflow: auto;
-    text-align: center;
-    color: #ffffff;
-    width: 30%;
-    background-color: #224173;
-    height: 300px;
-    padding: .5em;
-}
-
-h1 {
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: #324359;
+    height: 80px;
+    width: 100%;
     font-family: 'Fjalla One', sans-serif;
     font-size: 2rem;
+    color: #F2C166;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: #324359;
+    height: 150px;
+    width: 100%;
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: #46A694;
+    width: 30%;
+    height: 200px;
+    padding: 1%;
+  }
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
 p {
     font-family: 'Old Standard TT', serif;
     font-size: 1rem;
+    color: #fff;
+    text-align: center;
 }
 
 
